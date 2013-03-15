@@ -40,6 +40,3 @@ $(call inherit-product-if-exists, vendor/samsung/t769/t769-vendor.mk)
 
 # NFC
 BOARD_HAVE_NFC := true
-
-#Add Lightning Zap verndor files
-$(call inherit-product, vendor/lz-kernel/lightningzap.mk)

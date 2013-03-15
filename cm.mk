@@ -16,9 +16,5 @@ TARGET_BOOTANIMATION_NAME := 480
 PRODUCT_NAME := cm_t769
 PRODUCT_DEVICE := t769
 
-
-#Add Lightning Zap verndor files
-$(call inherit-product, vendor/lz-kernel/lightningzap.mk)
-
 PRODUCT_PACKAGES += \
     vendor/lz-kernel/scripts/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
